@@ -1,0 +1,281 @@
+0. Introdução - Cumprindo os Requisitos para a Iniciação
+0.1. Aristóteles
+0.2. Influência Aristotélica
+0.3. Lógica Categórica
+0.4. Quadrado das Oposições
+0.5. Leis do Pensamento
+0.6. Lógica Modal Aristotélica
+0.7. Silogismo
+0.8. História da Lógica Simbólica
+0.9. Sintaxe e Semântica
+0.10. Lógica Proposicional
+0.11. Lógica de Primeira Ordem (FOL)
+0.12. Sistemas de Prova
+0.12.1. Dedução Natural
+0.12.2. Cálculo de Sequentes
+0.12.3. Princípio da Resolução
+
+0.13. Aplicando Lógica à Computação
+0.14. Lógica de Programação e Fundamentos da Computação
+0.14.1. Fundamentos da Computação
+0.14.1.1. Introdução à Computação (Conceitos e Partes Técnicas)
+0.14.1.2. Aprofundamento à Kernel
+0.14.1.3. Sistemas Operacionais e Arquivos
+0.14.1.4. Código Binário
+0.14.1.5. História das Linguagens de Programação
+0.14.2. Linguagem C
+0.14.3. Estruturas de Controle
+0.14.4. Estruturas de Dados
+0.14.5. Modularização
+0.14.6. Pilhas (stack)
+0.14.7. Filas (queue)
+0.14.8. Listas Encadeadas
+0.14.9. Árvores
+0.15. Lógica Fuzzy e Incerteza
+0.16. Lógica Modal Computacional
+0.17. Autômatos e Linguagens Formais
+0.18. Teoria da Computabilidade
+0.19. Problemas NP, NP-completos e NP-difíceis
+0.20. Redução de Problemas e Complexidade
+0.21. Álgebra Linear
+0.21.1. Vetores
+0.21.2. Matrizes
+0.21.3. Determinantes
+0.22. Teoria dos Números
+0.22.1. Primalidade
+0.22.2. Criptografia
+0.22.3. Modulares
+0.23. Probabilidade e Estatística (análise de algoritmos aleatórios)
+0.24. Geometria Computacional
+0.25. Teoria dos Grafos
+0.25.1. Fluxo Máximo
+0.25.2. Emparelhamento
+0.25.3. Redes
+
+Capítulo 1 – Fundamentos de Algoritmos
+1.1. Complexidade de Tempo e Espaço
+1.1.1. Notação Big O (ex.: O(1), O(log n), O(n), O(n log n), O(n²))
+1.1.2. Melhor, Média e Pior Caso
+1.1.3. Complexidade de Tempo de Operações Comuns (ex.: acesso a lista, inserção em tabela hash)
+1.1.4. Análise de Complexidade de Espaço
+1.1.5. Análise Amortizada (ex.: redimensionamento de array dinâmico)
+1.2. Fundamentos Matemáticos
+1.2.1. Logaritmos e Expoentes (crucial para análise de complexidade)
+1.2.2. Combinatória Básica (permutações, combinações)
+1.2.3. Aritmética Modular (usada em hashing e teoria dos números)
+1.2.4. Relações de Recorrência (usadas em dividir para conquistar)
+1.2.5. Técnicas de Prova (indução, contradição, etc.)
+1.3. Representação de Dados e Operações com Bits
+1.3.1. Conversão entre Binário, Decimal e Hexadecimal
+1.3.2. Manipulação de Bits (AND, OR, XOR, NOT, deslocamentos de bits (bit shifts))
+1.3.3. Representação em Complemento de Dois
+1.3.4. Overflow e Underflow de Inteiros
+1.3.5. Máscaras e Bandeiras de Bits
+1.4. Memória e Arquitetura de Computadores (Noções Básicas)
+1.4.1. Hierarquia de Memória (RAM, Cache, Registradores)
+1.4.2. Pilha vs Heap
+1.4.3. Ponteiros e Referências
+1.4.4. Pilha de Execução e Pilha de Recursão
+1.4.5. Gargalos entre CPU e Memória
+1.5. Estruturas de Dados Essenciais
+1.5.1. Vetores e Strings
+1.5.2. Listas Ligadas
+1.5.3. Pilhas e Filas
+1.5.4. Tabelas de Dispersão / Mapas Hash
+1.5.5. Árvores e Árvores Binárias
+1.5.6. Grafos (lista de adjacência vs matriz)
+1.5.7. Heaps / Filas de Prioridade
+1.5.8. Tries
+1.5.9. Conjuntos Disjuntos (Union-Find)
+1.6. Fundamentos da Linguagem de Programação
+1.6.1. Laços (Loops) e Recursão
+1.6.2. Pilha de Chamadas de Função
+1.6.3. Gerenciamento de Memória (manual vs coleta de lixo)
+1.6.4. Passagem por Valor vs Passagem por Referência
+1.6.5. Tipos Imutáveis vs Mutáveis
+1.6.6. Uso da Biblioteca Padrão (ex.: ordenação, heapq em Python)
+1.7. Princípios de Projeto de Algoritmos
+1.7.1. Força Bruta
+1.7.2. Estratégia Gulosa (Greedy)
+1.7.3. Dividir para Conquistar
+1.7.4. Programação Dinâmica (Memoização vs Tabela)
+1.7.5. Retrocesso (Backtracking)
+1.7.6. Percursos em Grafos
+1.7.7. Janela Deslizante / Dois Ponteiros
+
+Capítulo 2 – Algoritmos Básicos
+2.1. Busca Linear
+2.2. Busca Binária
+2.3. Técnica de Dois Ponteiros
+2.4. Janela Deslizante
+
+Capítulo 3 – Algoritmos de Ordenação
+3.1. Ordenação por Bolha (Bubble Sort)
+3.2. Ordenação por Inserção (Insertion Sort)
+3.3. Ordenação por Seleção (Selection Sort)
+3.4. Merge Sort
+3.5. Quick Sort
+3.6. Heap Sort
+3.7. Counting Sort
+3.8. Radix Sort
+
+Capítulo 4 – Recursão e Backtracking
+4.1. Fatorial / Fibonacci (recursivo)
+4.2. Template de Backtracking
+4.2.1. Permutações
+4.2.2. Combinações
+4.2.3. Problema das N-Rainhas
+4.2.4. Solucionador de Sudoku
+4.2.5. Subconjuntos
+
+Capítulo 5 – Dividir para Conquistar
+5.1. Merge Sort
+5.2. Quick Sort
+5.3. Busca Binária
+5.4. Subarray Máximo (Kadane via DyC)
+
+Capítulo 6 – Algoritmos Gulosos
+6.1. Seleção de Atividades
+6.2. Agendamento de Intervalos
+6.3. Mochila Fracionária (Fractional Knapsack)
+6.4. Codificação de Huffman
+6.5. Algoritmo de Dijkstra
+
+Capítulo 7 – Programação Dinâmica
+7.1. Fibonacci (com memoização)
+7.2. Mochila 0/1
+7.3. Mochila com Itens Infinitos
+7.4. Subsequência Comum Mais Longa (LCS)
+7.5. Subsequência Crescente Mais Longa (LIS)
+7.6. Troco com Moedas (Coin Change)
+7.7. Corte de Hastes (Rod Cutting)
+7.8. Multiplicação de Cadeia de Matrizes
+7.9. Distância de Edição (Edit Distance)
+7.10. Particionamento Palindrômico
+7.11. Correspondência com Curingas (Wildcard Matching)
+
+Capítulo 8 – Algoritmos de Grafos
+8.1. Busca em Largura (BFS)
+8.2. Busca em Profundidade (DFS)
+8.3. Ordenação Topológica
+8.4. Algoritmo de Dijkstra
+8.5. Algoritmo de Bellman-Ford
+8.6. Algoritmo de Floyd-Warshall
+8.7. Algoritmo A*
+8.8. Union-Find (Conjuntos Disjuntos)
+8.9. Algoritmo de Kruskal (Árvore Geradora Mínima)
+8.10. Algoritmo de Prim (Árvore Geradora Mínima)
+
+Capítulo 9 – Algoritmos em Árvores
+9.1. DFS/BFS em Árvores
+9.2. Percursos em Árvores Binárias (Pré-ordem, Em-ordem, Pós-ordem)
+9.3. Menor Ancestral Comum (LCA)
+9.4. Inserção/Remoção/Busca em Árvore Binária de Busca (BST)
+9.5. Verificação de Balanceamento de Altura
+9.6. Diâmetro de uma Árvore
+9.7. Trie (Árvore de Prefixos)
+
+Capítulo 10 – Estruturas de Dados Avançadas (Relacionadas a Algoritmos)
+10.1. Árvore de Segmento (Segment Tree)
+10.2. Árvore de Fenwick (Árvore Indexada Binária)
+10.3. Union-Find com Compressão de Caminho
+10.4. Trie com Armazenamento de Palavras
+10.5. Fila de Prioridade / Operações com Heap
+
+Capítulo 11 – Algoritmos Diversos de Alta Frequência
+11.1. KMP (Knuth-Morris-Pratt) – Correspondência de Padrões
+11.2. Algoritmo de Rabin-Karp
+11.3. Algoritmo de Manacher (Maior Substring Palindrômica)
+11.4. Amostragem Reservatória (Reservoir Sampling)
+11.5. Máximo com Janela Deslizante (com Deque)
+11.6. Top K Elementos (com Heap ou QuickSelect)
+11.7. Detecção de Ciclo em Grafos (DFS + Union-Find)
+
+Capítulo 12 - Aprofundando na Prática
+12.1. Didática do Capítulo
+12.2. Problemas Clássicos da Ciência da Computação
+12.2.1. Soma de Elementos de um Vetor / Estrutura: Vetor, Array
+12.2.2. Verificando Palíndromo / Estrutura: String, Array
+12.2.3. Contagem de Frequências em uma String / Estrutura: Hash table / Array
+12.2.4. Parênteses Balanceados / Estrutura: Pilha (Stack)
+12.2.5. Caminho Mínimo em Grafo Simples (Usando BFS (Busca em Largura) para grafos não ponderados) / Estrutura: Grafo 
+12.2.6. DFS em grafos / árvores (Percorrer todos os nós) / Estrutura: Grafo / Árvore
+12.2.7. Problema da Mochila (Knapsack) – sem repetição / Estrutura: Programação Dinâmica (DP)
+12.2.8. Subsequência Comum Máxima (LCS) / Estrutura: DP
+12.2.9. Merge Sort e Quick Sort com Recursão e DC / Estrutura: Array, Recursão
+12.2.10. Busca em Árvore Binária (BST) / Estrutura: Árvores Binárias
+12.2.11. Caminho Mínimo em Grafos Ponderados com Dijkstra e Bellman-Ford / Estrutura: Grafo com Pesos
+12.2.12. Árvore de segmentação (Segment Tree) – Consultas e Atualizações de Intervalos / Estrutura: Árvores Segmentadas / Interval Trees
+12.2.13. Problema da mochila com repetição ilimitada (Unbounded Knapsack) / Estrutura: DP 1D/2D
+12.2.14. Árvore binária balanceada (AVL / Red-Black Tree) – Inserção e Remoção Mantendo Balanceamento / Estrutura: Árvores binárias balanceadas
+12.2.15. Subconjunto de Soma Máxima / Partição de Conjunto (Subset Sum) / Estrutura: DP de tabela, backtracking
+12.2.16. Travelling Salesman Problem (TSP) – Abordagem DP com Bitmask / Estrutura: DP + Grafos + Bitmasking
+
+Capítulo 13 – Algoritmos Aleatórios e Probabilísticos
+13.1. QuickSort Aleatório
+13.2. Randomized Select
+13.3. Algoritmos Monte Carlo
+13.4. Algoritmos Las Vegas
+13.5. Amostragem Aleatória e Hashing Universal
+
+Capítulo 14 – Técnicas Avançadas em Grafos
+14.1. Fluxo Máximo (Ford-Fulkerson, Edmonds-Karp, Dinic)
+14.2. Emparelhamento Máximo em Grafos Bipartidos
+14.3. Componentes Fortemente Conexos (Kosaraju, Tarjan)
+14.4. Pontes e Articulações
+14.5. Caminhos Mínimos Avançados (Johnson, A* com heurística)
+14.6. Ciclo Euleriano e Hamiltoniano
+
+Capítulo 15 – Estruturas de Dados Avançadas II
+15.1. Skip Lists
+15.2. Segment Tree Lazy Propagation
+15.3. Persistent Data Structures
+15.4. Suffix Array e Suffix Tree
+15.5. RMQ (Range Minimum Query) e LCA Avançado
+
+Capítulo 16 – Técnicas Avançadas de Programação Dinâmica
+16.1. DP com Bitmask
+16.2. DP em Grafos
+16.3. Otimização de Estado em DP (1D/2D)
+16.4. Problemas de Contagem (Paths, Partições)
+16.5. DP em Subconjuntos / Máscaras de Bits
+
+Capítulo 17 – Matemática Discreta Aplicada
+17.1. Teoria dos Conjuntos
+17.2. Funções e Relações
+17.3. Grafos e Árvores (terminologia e propriedades)
+17.4. Recorrências e Sequências
+17.5. Principio da Inclusão-Exclusão
+17.6. Análise Combinatória Avançada
+
+Capítulo 18 – Problemas Clássicos Avançados
+18.1. Problema do Caixeiro Viajante (TSP)
+18.2. Problema do Fluxo Máximo
+18.3. Problema da Mochila com Restrições
+18.4. Problema de Partição de Conjuntos
+18.5. Sudoku Generalizado
+18.6. Problemas de Grafos Planar e Árvores Geradoras Mínimas
+18.7. Problemas de Palíndromos e Strings
+
+Capítulo 19 – Da Teoria à Prática: O Mercado de Trabalho em Computação
+
+19.1. Panorama do Mercado de TI
+19.2. Perfis Profissionais e Caminhos Possíveis
+19.3. O que o Mercado Espera de um Programador
+19.4. Ferramentas Essenciais do Profissional
+19.5. Construindo um Portfólio Profissional
+19.6. Projetos Reais e Experiência Prática
+19.7. Versionamento e Trabalho em Equipe
+19.8. Princípios de Engenharia de Software
+19.9. Linguagens e Tecnologias Mais Pedidas
+19.10. Bancos de Dados e Armazenamento
+19.11. APIs e Comunicação entre Sistemas
+19.12. Desenvolvimento Web e Mobile
+19.13. DevOps e Cloud Computing
+19.14. Segurança e Boas Práticas
+19.15. Ciência de Dados e Inteligência Artificial
+19.16. O Processo de Seleção
+19.17. Portais, Freelance e Networking
+19.18. Ética e Responsabilidade Profissional
+19.19. Carreira Internacional e Trabalho Remoto
+19.20. Crescimento e Aprendizado Contínuo
